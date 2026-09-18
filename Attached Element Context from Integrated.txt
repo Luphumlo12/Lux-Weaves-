@@ -1,0 +1,65 @@
+Attached Element Context from Integrated Browser
+
+Element: section.hero
+
+URL: file:///c%3A/Dev/Collect_hub.html#top
+
+HTML Path: main#top > section.hero
+
+Outer HTML:
+```html
+<section class="hero" aria-labelledby="hero-title">
+            <div class="hero-copy">
+                <p class="eyebrow">Independent culture / 001</p>
+                <h1 id="hero-title">Culture<br><em>in motion.</em></h1>
+                <p class="intro">A cross-platform home for the people shaping what comes next through sound, style, play and conversation.</p>
+                <a class="text-link" href="#about">Explore the hub <span aria-hidden="true">↓</span></a>
+            </div>
+            <div class="hero-art" aria-label="A collage representing music, fashion, gaming and podcasting" role="img">
+                <div class="art-image art-image--main"></div>
+                <div class="art-image art-image--small"></div>
+                <span class="art-stamp">FOR<br>THE<br>CURIOUS</span>
+                <span class="art-caption">Volume 01<br>Always evolving</span>
+            </div>
+        </section>
+```
+
+Dimensions:
+- top: 76px
+- left: 0px
+- width: 941px
+- height: 690px
+
+CSS:
+```css
+* { box-sizing:border-box }
+.hero { display:grid;gap:5vw;grid-template-columns:1fr 1fr;min-height:690px;padding:9vw 5vw 8vw }
+
+/* Inherited */
+body { color:var(--ink); font:16px/1.45 'DM Sans',sans-serif }
+
+/* Resolved values */
+padding: 86.04px 47.8px 76.48px;
+box-sizing: border-box;
+color: rgb(21, 21, 21);
+column-gap: 47.8px;
+display: grid;
+font-family: "DM Sans", sans-serif;
+font-feature-settings: normal;
+font-kerning: auto;
+font-size: 16px;
+font-size-adjust: none;
+font-stretch: 100%;
+font-style: normal;
+font-weight: 400;
+grid-template-columns: 398.797px 398.812px;
+height: 690px;
+line-height: 23.2px;
+min-height: 690px;
+row-gap: 47.8px;
+unicode-bidi: isolate /*UA*/;
+width: 941px;
+
+/* CSS variables */
+--ink: #151515;
+```
